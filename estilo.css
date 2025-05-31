@@ -66,9 +66,19 @@ main {
     margin-top: 20px;
 }
 
-.perfil img {
-    width: 150px;
-    border-radius: 50%;
+.textperfil img {
+    width: 150px; 
+    height: auto; 
+    border-radius: 8px; 
+    margin-right: 20px; 
+    float: left; 
+}
+
+
+.textperfil::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .tituloviatges{
